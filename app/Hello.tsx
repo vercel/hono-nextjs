@@ -15,7 +15,7 @@ export default function Hello() {
   }, [])
 
   return <section className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container flex flex-col items-center justify-center px-4 md:px-6 space-y-4">
+          <div className="flex flex-col items-center justify-center px-4 md:px-6 space-y-4">
             <p className="max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
               Here is the response to your API call:
             </p>
